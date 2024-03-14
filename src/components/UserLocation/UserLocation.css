@@ -1,0 +1,85 @@
+.userlocation-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
+}
+
+.locationlayoutcontent {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+    gap: 50px;
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    gap: 20px;
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  @media all and (max-width: 480px) {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+.locationlayout {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  column-gap: 50px;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+    grid-template-columns: 200px 200px;
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    grid-template-columns: 150px 150px;
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  @media all and (max-width: 480px) {
+    grid-template-columns: 100px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+}
+
+.mapdesign {
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
+}

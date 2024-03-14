@@ -1,0 +1,88 @@
+.userstudies-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
+}
+
+.graduatebox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 20px;
+  width: max-content;
+  margin: 0 auto;
+  cursor: pointer;
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    gap: 10px;
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    gap: 10px;
+    padding: 15px;
+  }
+
+  @media all and (max-width: 480px) {
+    gap: 10px;
+    padding: 15px;
+  }
+}
+
+.graduateicon {
+  height: 50px;
+  width: 50px;
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    height: 40px;
+    width: 40px;
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    height: 35px;
+    width: 35px;
+  }
+
+  @media all and (max-width: 480px) {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.universitytext {
+  font-size: 36px;
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    font-size: 26px;
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media all and (max-width: 480px) {
+    font-size: 10px;
+  }
+}

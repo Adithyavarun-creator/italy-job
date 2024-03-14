@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.linkStyle {
+  color: #333;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Mukta", sans-serif;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 25px;
+}
+::-webkit-scrollbar-button {
+  background: #fff;
+}
+::-webkit-scrollbar-track-piece {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.clipboard {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  clip-path: circle();
+  padding: 10px;
+  transition: all 0.4s ease-in;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
+}
+
+.clipboard:hover {
+  background-color: rgb(206, 204, 204);
+}
+
+.companyicon {
+  height: 300px;
+  width: 300px;
+  clip-path: circle();
+  padding: 40px;
+  background-color: #1877f2;
+  color: #fff;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    height: 200px;
+    width: 200px;
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    display: none;
+  }
+
+  @media all and (max-width: 480px) {
+    display: none;
+  }
+}
+
+.title {
+  text-align: center;
+  font-size: 34px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media all and (max-width: 480px) {
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}

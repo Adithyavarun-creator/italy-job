@@ -1,0 +1,56 @@
+.useraccessory-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
+}
+
+.useraccessorylayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media all and (max-width: 480px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* .graduatebox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+} */
+
+/* .graduateicon {
+  height: 50px;
+  width: 50px;
+}
+
+.universitytext {
+  font-size: 23px;
+} */
